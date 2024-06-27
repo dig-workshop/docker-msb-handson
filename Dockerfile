@@ -1,5 +1,5 @@
 FROM gradle:8
-COPY . /workspace
-WORKDIR /workspace/api
-RUN ./gradlew build
+COPY
+WORKDIR
+RUN
 CMD [ "java", "-jar", "./build/libs/api-0.0.1-SNAPSHOT.jar" ]
